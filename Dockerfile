@@ -21,7 +21,6 @@ RUN docker-php-ext-install curl
 RUN ln -s /usr/local/bin/php /usr/bin/php
 
 # Define working directory.
-VOLUME /app/nsedit
 WORKDIR /app/nsedit
 EXPOSE 8080
 
